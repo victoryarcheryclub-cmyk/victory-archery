@@ -85,7 +85,7 @@ document.getElementById("daftarForm").addEventListener("submit", async function(
     };
 
     try {
-      const response = await fetch("https://script.google.com/macros/s/AKfycbz_6KLK9Jo5mlTrwJxoeqsMTD137zW5JaFZvt1Uv8iKeVqDhyrgIg7d6ePGC7Bhmd0n/exec", {
+      const response = await fetch("https://script.google.com/macros/s/AKfycbzrX8LAclhQ70PpgHt1_wi1TXAqyr6FDPRgGrThkZQ_iy-cMAqf5omU-4VlHjYzgAJA/exec", {
   method: "POST",
 
   body: JSON.stringify(data)
