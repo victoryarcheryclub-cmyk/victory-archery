@@ -1,0 +1,430 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>Victory Archery Club</title>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="stylesheet" href="style.css">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+
+  
+
+</head>
+
+<body>
+
+  <!-- NAVBAR -->
+
+  <nav class="navbar">
+
+    <div class="logo-wrap">
+
+      <img src="logo.png" class="logo-img">
+
+      <div class="logo-text">
+        VICTORY ARCHERY
+      </div>
+
+    </div>
+
+    <!-- HAMBURGER BUTTON (BARU DITAMBAH) -->
+<div class="hamburger" onclick="toggleMenu()">
+  ☰
+</div>
+
+<!-- MENU NAVBAR -->
+<div class="menu" id="menu">
+
+  <a href="#about">Tentang</a>
+  <a href="#coach">Coach</a>
+  <a href="#testimoni">Testimoni</a>
+
+  <a href="javascript:void(0)" onclick="openForm()">
+    Daftar
+  </a>
+
+  <a href="#join">Gabung</a>
+
+</div>
+
+  </nav>
+
+  <!-- HERO -->
+
+  <section class="hero">
+
+    <div class="hero-content">
+
+      <h1>
+        Build Your <span>Focus</span><br>
+        Through Archery
+      </h1>
+
+      <p>
+        Victory Archery Club Purwakarta adalah tempat latihan panahan modern
+        untuk anak, remaja, dan dewasa dengan pembinaan atlet,
+        latihan rutin, dan persiapan lomba.
+      </p>
+
+      <div class="btn-group">
+
+        <a href="javascript:void(0)" class="btn btn-primary" onclick="openForm()">
+          Gabung Sekarang
+        </a>
+
+        <a href="#about" class="btn btn-secondary">
+          Lihat Detail
+        </a>
+
+      </div>
+
+    </div>
+
+  </section>
+
+  <!-- ABOUT -->
+
+  <section id="about">
+
+    <h2 class="section-title">
+      Tentang <span>Kami</span>
+    </h2>
+
+    <p class="section-desc">
+      Victory Archery Club hadir sebagai wadah pembinaan panahan
+      dengan suasana latihan profesional, disiplin, dan menyenangkan.
+    </p>
+
+    <div class="about-grid">
+
+      <div class="about-card">
+        <h3>Latihan Rutin</h3>
+        <p>
+          Program latihan mingguan untuk meningkatkan teknik dan konsistensi atlet.
+        </p>
+      </div>
+
+      <div class="about-card">
+        <h3>Pembinaan Atlet</h3>
+        <p>
+          Persiapan khusus untuk member yang ingin mengikuti perlombaan.
+        </p>
+      </div>
+
+      <div class="about-card">
+        <h3>Coach Profesional</h3>
+        <p>
+          Didampingi pelatih berpengalaman dengan metode latihan modern.
+        </p>
+      </div>
+
+    </div>
+
+  </section>
+
+  <!-- COACH -->
+
+  <section id="coach">
+
+    <h2 class="section-title">
+      Our <span>Coach</span>
+    </h2>
+
+    <p class="section-desc">
+      Tim pelatih Victory Archery Club siap mendampingi perkembangan latihan Anda.
+    </p>
+
+    <div class="coach-grid">
+
+      <div class="coach-card">
+
+        <img src="https://images.unsplash.com/photo-1517841905240-472988babdf9?q=80&w=1200&auto=format&fit=crop">
+
+        <div class="coach-content">
+          <h3>Coach Victory</h3>
+          <p>Pelatih Utama</p>
+        </div>
+
+      </div>
+
+      <div class="coach-card">
+
+        <img src="https://images.unsplash.com/photo-1500648767791-00dcc994a43e?q=80&w=1200&auto=format&fit=crop">
+
+        <div class="coach-content">
+          <h3>Coach Archery</h3>
+          <p>Pelatih Teknik</p>
+        </div>
+
+      </div>
+
+    </div>
+
+  </section>
+  
+<section id="gallery">
+
+  <h2 class="section-title">
+    Gallery <span>Latihan</span>
+  </h2>
+
+  <p class="section-desc">
+    Dokumentasi latihan dan kegiatan Victory Archery Club Purwakarta.
+  </p>
+
+  <div class="gallery-grid">
+
+  <img src="https://images.unsplash.com/photo-1526232761682-d26e03ac148e?q=80&w=1200&auto=format&fit=crop">
+
+  <img src="https://images.unsplash.com/photo-1511884642898-4c92249e20b6?q=80&w=1200&auto=format&fit=crop">
+
+  <img src="https://images.unsplash.com/photo-1505664194779-8beaceb93744?q=80&w=1200&auto=format&fit=crop">
+
+  <img src="https://images.unsplash.com/photo-1517466787929-bc90951d0974?q=80&w=1200&auto=format&fit=crop">
+
+</div>
+
+</section>
+  <!-- TESTIMONI -->
+
+  <section id="testimoni">
+
+    <h2 class="section-title">
+      Testimoni <span>Member</span>
+    </h2>
+
+    <p class="section-desc">
+      Pengalaman latihan dari member Victory Archery Club.
+    </p>
+
+    <div class="testimonial-wrap">
+
+      <div class="testimonial">
+        <p>
+          Latihan sangat seru dan coach sangat membantu perkembangan teknik.
+        </p>
+        <h4>Rudi</h4>
+      </div>
+
+      <div class="testimonial">
+        <p>
+          Tempat latihan nyaman dan suasana club sangat positif.
+        </p>
+        <h4>Sinta</h4>
+      </div>
+
+      <div class="testimonial">
+        <p>
+          Anak saya jadi lebih fokus dan disiplin sejak ikut latihan.
+        </p>
+        <h4>Orang Tua Member</h4>
+      </div>
+
+    </div>
+
+  </section>
+
+
+<!-- FORM PENDAFTARAN -->
+
+<div id="popupForm" class="popup-form" onclick="closeForm()">
+
+  <div class="popup-content" onclick="event.stopPropagation()">
+  <h2 class="section-title">
+    Form <span>Pendaftaran</span>
+  </h2>
+
+  <p class="section-desc">
+    Isi data berikut untuk bergabung dengan Victory Archery Club Purwakarta.
+  </p>
+
+  <div class="form-box">
+
+   
+<div class="form-close-wrap">
+
+  <button class="close-btn" onclick="closeForm()">
+    Tutup
+  </button>
+
+</div>
+
+
+
+    <form id="daftarForm" enctype="multipart/form-data">
+
+      <div class="form-grid">
+
+        <div class="form-group">
+          <label>Nama Lengkap</label>
+          <input type="text" id="nama" required>
+        </div>
+
+        <div class="form-group">
+          <label>Nama Panggilan</label>
+          <input type="text" id="namaPanggilan">
+        </div>
+
+        <div class="form-group">
+          <label>Tempat Lahir</label>
+          <input type="text" id="tempatLahir">
+        </div>
+
+        <div class="form-group">
+          <label>Tanggal Lahir</label>
+          <input type="date" id="tanggalLahir">
+        </div>
+
+        <div class="form-group">
+          <label>Email</label>
+          <input type="email" id="email">
+        </div>
+
+        <div class="form-group">
+          <label>No HP</label>
+          <input type="text" id="nohp">
+        </div>
+
+        <div class="form-group">
+          <label>Jenis Kelamin</label>
+
+          <select id="jenisKelamin">
+            <option>Laki-laki</option>
+            <option>Perempuan</option>
+          </select>
+
+        </div>
+
+       <div class="form-group">
+  	<label>Upload Foto</label>
+
+  	<input
+   	 type="file"
+   	 id="foto"
+   	 accept="image/*"
+  >
+
+</div>
+
+      </div>
+
+      <br>
+
+      <div class="form-group">
+        <label>Alamat</label>
+        <textarea id="alamat"></textarea>
+      </div>
+
+      <button
+  	type="submit"
+  	class="submit-btn"
+  	id="submitBtn"
+>
+ 	 Kirim Pendaftaran
+	</button>
+
+    </form>
+
+  </div>
+
+  </div>
+
+</div>
+
+
+  <!-- CTA -->
+
+  <section id="join">
+
+    <div class="cta">
+
+      <h2>Gabung Bersama Kami</h2>
+
+      <p>
+        Mulai latihan panahan bersama Victory Archery Club Purwakarta
+        dan tingkatkan fokus, disiplin, serta prestasi Anda.
+      </p>
+
+      <a href="https://wa.me/6283879836340" target="_blank">
+        Hubungi WhatsApp
+      </a>
+
+    </div>
+</section>
+ 
+
+  <!-- FOOTER -->
+
+ <footer>
+
+  <h3>Victory Archery Club Purwakarta</h3>
+
+  <p>
+    📧 victoryarcheryclub@gmail.com
+  </p>
+
+  <p>
+    📸 Instagram:
+    <a href="https://instagram.com/victoryarcheryclub" target="_blank">
+      @victoryarcheryclub
+    </a>
+  </p>
+
+  <p>
+    📱 WhatsApp:
+    <a href="https://wa.me/6283879836340" target="_blank">
+      0838-7983-6340
+    </a>
+  </p>
+
+  <br>
+
+  <small>
+    © 2026 Victory Archery Club Purwakarta
+  </small>
+
+</footer>
+
+  <!-- FLOATING WA -->
+
+  <a href="https://wa.me/6283879836340" target="_blank" class="wa-float">
+    ☎
+  </a>
+
+
+
+<!-- SUCCESS POPUP -->
+
+<div id="successPopup" class="success-popup">
+
+  <div class="success-box">
+
+    <div class="success-icon">
+      ✓
+    </div>
+
+    <h2>Pendaftaran Berhasil</h2>
+
+    <p>
+      Data berhasil dikirim ke Victory Archery Club.
+    </p>
+
+    <button onclick="closeSuccessPopup()">
+      Tutup
+    </button>
+
+  </div>
+</div>
+
+
+
+
+<script src="script.js"></script>
+
+</body>
+</html>
